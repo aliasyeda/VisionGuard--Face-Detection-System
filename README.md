@@ -41,15 +41,8 @@ q - Quit webcam mode
 
 s - Save current frame
 
-📁 Project Structure
-text
-face-detection-system/
-│
-├── face_detection.py    # Main program
-├── README.md           # Documentation
-├── requirements.txt    # Dependencies
-└── outputs/            # Saved results (auto-created)
-💻 Code Example
+          # Saved results (auto-created)
+## 💻 Code Example
 python
 import cv2
 
@@ -70,17 +63,21 @@ for (x, y, w, h) in faces:
 # Show result
 cv2.imshow('Face Detection', img)
 cv2.waitKey(0)
-📊 Sample Output
-text
+## 📊 Sample Output
+
 Enter image path: test.jpg
 ✅ Found 2 face(s)
 💾 Saved to: output_20240315_143022.jpg
+
+
 ⚠️ Troubleshooting
 Issue	Solution
 Module not found	Run pip install opencv-python numpy
 No faces detected	Use clear image with visible faces
 Webcam not working	Check camera connection
-🔮 Future Improvements
+
+
+##     🔮 Future Improvements
 Face recognition (identify specific people)
 
 Video file processing
@@ -91,9 +88,5 @@ GUI interface
 
 
 
-👤 Author
+## 👤 Author
 Syeda Alia Samia
-
-🔗 GitHub
-https://github.com/yourusername/face-detection-system
-
