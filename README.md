@@ -22,7 +22,7 @@ This project uses Haar Cascade Classifier to detect human faces in images and th
 
 ## ⚙️ Installation
 
-```bash
+
 # Install required packages
 pip install opencv-python numpy
 🚀 How to Run
@@ -70,7 +70,7 @@ Enter image path: test.jpg
 💾 Saved to: output_20240315_143022.jpg
 
 
-⚠️ Troubleshooting
+## ⚠️ Troubleshooting
 Issue	Solution
 Module not found	Run pip install opencv-python numpy
 No faces detected	Use clear image with visible faces
